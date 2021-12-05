@@ -203,6 +203,7 @@
   animation-duration: 1000ms;
   line-height: 1.8;
   letter-spacing: 1px;
+  font-size: 1.25rem;
   margin: 64px 40px 60px;
 }
 
@@ -219,7 +220,6 @@
   .u-section-4 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
-    font-size: 1.25rem;
   }
 }
 
@@ -264,6 +264,7 @@
   font-family: "Nunito Sans";
   animation-duration: 1000ms;
   font-size: 3.75rem;
+  font-weight: normal;
   margin: 57px auto 0;
 }
 
@@ -1021,10 +1022,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-5 .u-text-1 {
-    font-weight: normal;
-  }
-
   .u-section-5 .u-carousel-thumbnail-1 {
     width: 18px;
     height: 18px;
