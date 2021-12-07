@@ -6,11 +6,13 @@
     <title>Arriba el Taller</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Arriba-el-Taller.css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">  
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -74,8 +76,16 @@
       <div class="u-clearfix u-sheet u-valign-bottom u-sheet-1">
         <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
           <h2 style="text-align: left;">
-            <span class="u-custom-font" style="font-family: &quot;Nunito Sans&quot;; font-weight: 700; font-size: 3.75rem;">Nuestro proyecto</span>
-          </h2>
+            <span class="u-custom-font" style="font-family: &quot;Nunito Sans&quot;; font-weight: 700; font-size: 3.75rem;"> <a></a> Nuestro proyecto</span>
+                        <!-- Modal HTML embedded directly into document -->
+                        <div id="ex1" class="modal">
+                          <p>Thanks for clicking. That felt good.</p>
+                          <a href="#" rel="modal:close">Close</a>
+                        </div>
+
+                        <!-- Link to open the modal -->
+                        <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+                        </h2>
           <p style="text-align: justify; line-height: 1.8;">
             <span class="u-custom-font" style="font-family: &quot;Nunito Sans&quot;;">
               <span style="font-size: 1.25rem; letter-spacing: 1px;">Construir en la arena… Dibujar en un vidrio empañado…<br>Desde muy pequeñ@s tenemos el impulso de dejar huellas, de crear formas y experimentar. Crear imágenes es una necesidad, desde los comienzos de la historia y esto permanece a lo largo de toda la vida. Nos interesa el arte como forma de conocimiento, el arte como forma de vida, de una vida feliz.<br>El arte se parece mucho al juego, es el mismo proceso. Quizás la única diferencia entre arte y juego sea que en el arte la producción se “ve” y perdura. Al igual que en el juego, con la expresión plástica l@s chic@s nos proporcionan una parte de sí mismos. Cómo piensan, sienten y ven. Para eso en el taller l@s ayudamos a encontrar los temas, los materiales y técnicas más convenientes para que puedan expresarse. Es decir que a medida que van trabajando en su producción van adquiriendo tanto elementos del lenguaje plástico, como la utilización de materiales y herramientas. El taller es la posibilidad de aprender haciendo, de potenciar los conocimientos y adquirir nuevos saberes para expresar las ideas propias, estar atent@s a los descubrimientos y abiert@s a las posibilidades, animarse a lo diferente. Sumando la emoción como forma de adquirir conocimiento: Dibujamos, pintamos, construimos aquello que nos despierte un sentimiento, una emoción. Con la expresión plástica se “dicen” cosas que no se podrían decir de otra manera. Todo comienza con las ganas: ganas de usar materiales y herramientas que permitan expresar ideas y sentimientos personales a través del lenguaje plástico. En el taller trabajamos en grupos por edades pero la propuesta es que cada un@ pueda elegir. Much@s llegan con alguna idea o tema de lo que quieren hacer y entonces comienza el diálogo:<br>
@@ -1660,7 +1670,7 @@ podemos transformarlo en un collage y agregar otros materiales.<br>
       </button>
       </div>
     </section>
-
+    
 
 
     <style> .u-section-11 {
