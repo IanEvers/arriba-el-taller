@@ -1,0 +1,177 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+i {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.nav-link {
+padding-right: 0 !important;
+}
+
+.make-cursor{
+    cursor: pointer;
+}
+
+.estrella-1{
+    left: 1180px;
+    bottom: 689px;
+    color: red;
+}
+.estrella-2{
+    left: 500px;
+    bottom: 700px;
+    color: blue;
+}
+
+.estrella-3{
+    left: 494px;
+    bottom: 600px;
+    color: green;
+}
+
+.estrella-4{
+    left: 594px;
+    bottom: 300px;
+    color: red;
+}
+.estrella-5{
+    left: 411px;
+    bottom: 724px;
+}
+
+.estrella-6{
+    left: 694px;
+    bottom: 376px;
+    color: red;
+}
+
+.estrella-7{
+    left: 529px;
+    bottom: 435px;
+    color: blue;
+}
+.estrella-8{
+    left: 694px;
+    bottom: 300px;
+    color: green;
+}
+.estrella-9{
+    left: 1368px;
+    bottom: 313px;
+    color: red;
+}
+.estrella-10{
+    left: 1094px;
+    bottom: 354px;
+    color: red;
+}
+.estrella-11{
+    left: 887px;
+    bottom: 667px;
+    color: red;
+}
+.estrella-12{
+    left: 468px;
+    bottom: 409px;
+    color: red;
+}
+.estrella-13{
+    left: 348px;
+    bottom: 396px;
+    color: red;
+}
+.estrella-14{
+    left: 339px;
+    bottom: 568px;
+    color: red;
+}
+.estrella-15{
+    left: 1183px;
+    bottom: 443px;
+    color: red;
+}
+.estrella-16{
+    left: 694px;
+    bottom: 512px;
+    color: red;
+}
+.estrella-17{
+    left: 694px;
+    bottom: 600px;
+    color: red;
+}
+.estrella-18{
+    left: 965px;
+    bottom: 400px;
+    color: red;
+}
+.estrella-19{
+    left: 800px;
+    bottom: 500px;
+    color: red;
+}
+.estrella-20{
+    left: 994px;
+    bottom: 500px;
+    color: red;
+}
+.estrella-21{
+    left: 794px;
+    bottom: 700px;
+    color: red;
+}
+.estrella-22{
+    left: 1294px;
+    bottom: 530px;
+    color: red;
+}
+.estrella-23{
+    left: 1437px;
+    bottom: 689px;
+    color: red;
+}
+.estrella-24{
+    left: 1410px;
+    bottom: 534px;
+    color: red;
+}
+.estrella-25{
+    left: 1418px;
+    bottom: 750px;
+    color: red;
+}
+.estrella-26{
+    left: 1105px;
+    bottom: 524px;
+    color: red;
+}
+.estrella-27{
+    left: 1245px;
+    bottom: 596px;
+    color: red;
+}
+.estrella-28{
+    left: 994px;
+    bottom: 700px;
+    color: red;
+}
+.estrella-29{
+    left: 394px;
+    bottom: 650px;
+    color: red;
+}
+.estrella-30{
+    left: 494px;
+    bottom: 500px;
+    color: red;
+}
+
+.img-modals{
+    width: 45%;
+    height: 45%;
+    margin-right: 10px;
+}
